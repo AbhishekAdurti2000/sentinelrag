@@ -1,0 +1,5 @@
+{"answer": "The bug was fixed in [pull_request:930], which closes [issue:482].", "allowed_citations": ["issue:482", "pull_request:930", "commit:a1b2c3d"], "expected_hallucinated": []}
+{"answer": "This was fixed in [pull_request:9999] according to the maintainers.", "allowed_citations": ["issue:482", "pull_request:930"], "expected_hallucinated": ["pull_request:9999"]}
+{"answer": "No relevant evidence was found for this question.", "allowed_citations": ["issue:482"], "expected_hallucinated": []}
+{"answer": "Both [issue:482] and [issue:501] describe the same underlying race condition.", "allowed_citations": ["issue:482", "pull_request:930"], "expected_hallucinated": ["issue:501"]}
+{"answer": "Commit [commit:a1b2c3d] introduced the regression later fixed by [pull_request:930].", "allowed_citations": ["commit:a1b2c3d", "pull_request:930"], "expected_hallucinated": []}

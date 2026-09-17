@@ -1,0 +1,14 @@
+[tool.coverage.run]
+source = ["sentinelrag"]
+omit = [
+    "sentinelrag/cli.py",  # interactive entrypoint, exercised manually, not in CI
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

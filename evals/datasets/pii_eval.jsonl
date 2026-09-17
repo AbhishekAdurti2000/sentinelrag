@@ -1,0 +1,8 @@
+{"text": "Contact me at jane.doe@example.com if this needs more info.", "expected_categories": ["email"]}
+{"text": "My GitHub token is ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ012345 and it leaked in a log line.", "expected_categories": ["github_token"]}
+{"text": "Found this AWS key hardcoded: AKIAABCDEFGHIJKLMNOP -- please rotate it.", "expected_categories": ["aws_access_key"]}
+{"text": "Call me at 415-555-0192 to discuss the outage.", "expected_categories": ["phone"]}
+{"text": "The staging box is at 10.24.5.19 and is misbehaving.", "expected_categories": ["ip_address"]}
+{"text": "This PR fixes a race condition in the connection pool. No user data involved.", "expected_categories": []}
+{"text": "api_key: \"FAKE0000DONOTUSE0000TESTVALUE0000\" was committed by mistake in config.yaml.", "expected_categories": ["generic_api_key"]}
+{"text": "Reach the maintainer at maintainer@project.dev or open a new issue.", "expected_categories": ["email"]}

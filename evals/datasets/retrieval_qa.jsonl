@@ -1,0 +1,25 @@
+{"question": "Why did users get a 500 error right after resetting their password?", "expected_citations": ["issue:101"]}
+{"question": "How was the stale session cache after password reset actually fixed?", "expected_citations": ["pull_request:102"]}
+{"question": "What bug allowed the rate limiter to let through more traffic than configured?", "expected_citations": ["issue:110"]}
+{"question": "What algorithm replaced the token-bucket rate limiter and by how much did it reduce burst overshoot?", "expected_citations": ["pull_request:111"]}
+{"question": "Which commit added the sliding-window rate limiter?", "expected_citations": ["commit:a1b2c3d"]}
+{"question": "Why does the search index return stale results even after the connector refreshes?", "expected_citations": ["issue:120"]}
+{"question": "What change fixed the BM25 index not rebuilding after a refresh?", "expected_citations": ["pull_request:121", "commit:b2c3d4e"]}
+{"question": "Why was the long-term memory table growing without bound?", "expected_citations": ["issue:130"]}
+{"question": "What database change stopped duplicate memory facts from piling up?", "expected_citations": ["pull_request:131", "commit:c3d4e5f"]}
+{"question": "Describe the prompt injection vulnerability found in issue tracking.", "expected_citations": ["issue:140"]}
+{"question": "How does the system now defend against prompt injection hidden in retrieved evidence?", "expected_citations": ["pull_request:141", "commit:d4e5f6a"]}
+{"question": "Why do very long answers get cut off?", "expected_citations": ["issue:150"]}
+{"question": "What happens today if the GitHub connector hits a rate limit mid-request?", "expected_citations": ["issue:160"]}
+{"question": "What was the fix for the connector crashing on GitHub rate limits?", "expected_citations": ["pull_request:161", "commit:e5f6a7b"]}
+{"question": "Why does fixed-size chunking hurt retrieval on issues containing stack traces?", "expected_citations": ["issue:170"]}
+{"question": "What's missing from the risky-action confirmation flow?", "expected_citations": ["issue:180"]}
+{"question": "Who authored the fix for the rate limiter burst bug?", "expected_citations": ["pull_request:111"]}
+{"question": "Is the memory growth issue resolved or still open?", "expected_citations": ["issue:130", "pull_request:131"]}
+{"question": "What security label issues are currently open?", "expected_citations": ["issue:140", "issue:180"]}
+{"question": "Which PR explicitly closes the stale-cache login bug?", "expected_citations": ["pull_request:102"]}
+{"question": "What was the actual root cause of the intermittent 502 errors, after the load balancer and TLS handshake were ruled out?", "expected_citations": ["issue:190"]}
+{"question": "What callback was added to stop sockets from leaking on client disconnect?", "expected_citations": ["pull_request:191"]}
+{"question": "Why did the eval harness give a different pass count on two runs of the exact same code and dataset?", "expected_citations": ["issue:200"]}
+{"question": "What data structure change fixed the flaky eval pass-rate bug caused by an unstable tie-break?", "expected_citations": ["issue:200"]}
+

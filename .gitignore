@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+data/*.sqlite3
+data/cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+evals/results/*.json
+!evals/results/.gitkeep
